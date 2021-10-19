@@ -109,3 +109,29 @@ To get your API key, you need to sign up for a Quandl account. Go to the Quandl 
 On the “Step 1 of 3” sign-up page that appears, enter your first and last names, and then select Personal as your purpose for using Quandl. Click Next to move to the next page. The following image shows the “Step 1 of 3” page:
 
 ![Quandl Signup Page 1](quandl_page_one.png)
+
+On the “Step 2 of 3” page that appears, enter your email address, and then on the “How will you be using this data” drop-down menu, select your reason for using Quandl data. We suggest selecting “For a personal software development project.” Then click Next. The following image shows the “Step 2 of 3” page:
+
+![Quandl Signup Page 2](quandl_page_two.png)
+
+Now, set a password—you need to enter it twice—and then check the “I’m not a robot” reCAPTCHA box. Accept the terms of service and privacy policy. Finally, click Create Account. The following image shows the “Step 3 of 3” sign-up page:
+
+![Quandl Signup Page 3](quandl_page_three.png)
+
+The page that appears displays a welcome message with your API key. Copy the key from the box, and then click Continue. Your new Quandl homepage appears, where you can exit the Quandl browser window. The following image shows the “Welcome to Quandl” page with your API key:
+
+![Quandl Key](quandl_key.png)
+
+Securely store your Quandl API key on your computer so that you can access it throughout the module. We recommend storing it in either a password keeper or document that resides on your local machine. The following image shows a suggestion for the format:
+
+![Quandl Save Key](quandl_save_key.png)
+
+Quandl sends you a confirmation email. Open the email, and then confirm your address to avoid any issues when using this API.
+
+You need to generate your API credentials from the Alpaca API, so go to the **[Alpaca Markets sign-up page](https://alpaca.markets/docs/)**. To create an account, enter an email address, create a 12-character password, and then click “Sign up for free.” You’ll receive an email to verify the address before you can continue. The following image shows the Alpaca Markets sign-up page:
+
+![Alpaca Signup Page](alpaca_signup_page.png)
+
+Once you verify your email address, the "Welcome to Alpaca” page displays. Click the “Go to Paper Account” link (which appears at the far left of the page). The following image shows this page:
+
+![Alpaca Welcome](alpaca_welcome.png)
