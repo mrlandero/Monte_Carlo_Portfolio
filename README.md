@@ -66,7 +66,7 @@ To install this library, run the following command in your terminal:
 pip install python-dotenv
 ```
 
-Install the Alpaca SDK
+**Install the Alpaca SDK**
 Alpaca is an API for stock trading. With the Alpaca SDK, you can interact with the Alpaca API.
 
 To install this SDK, run the following command in your terminal:
@@ -75,7 +75,7 @@ To install this SDK, run the following command in your terminal:
 pip install alpaca-trade-api
 ```
 
-Verify the Installations
+**Verify the Installations**
 To verify that the library and SDK installations completed, call the pip list function together with the grep -E argument, which enables plain-text searches via the command line. The following code shows this function call:
 
 ```python
@@ -98,10 +98,10 @@ The following image shows the results in your terminal:
 
 ![Alpaca Installation Verification](alpaca_two_verification.png)
 
-Get the API Keys
+**Get the API Keys**
 To use certain APIs, you need API keys. You use these unique identifiers to establish an authenticated, secure connection to an API. You'll get keys for both the Quandl and Alpaca APIs.
 
-Get the Quandl API Key
+**Get the Quandl API Key**
 To get your API key, you need to sign up for a Quandl account. Go to the Quandl homepage (Links to an external site.), and then click Sign Up (which appears on the main menu along the top of the page). The following image shows the Quandl homepage:
 
 ![Quandal Home Page](quandl_home_page.png)
@@ -135,3 +135,48 @@ You need to generate your API credentials from the Alpaca API, so go to the **[A
 Once you verify your email address, the "Welcome to Alpaca” page displays. Click the “Go to Paper Account” link (which appears at the far left of the page). The following image shows this page:
 
 ![Alpaca Welcome](alpaca_welcome.png)
+
+The Paper Trading page displays. In the “Your API Keys” area (which exists on the right side of the page), click the View button. Then click “Generate API Keys.” This generates two keys: the API Key ID and a secret key. The following image shows the Paper Trading page with the View button.
+
+![Alpaca Paper Trading](alpaca_paper_trading.png)
+
+Copy both keys, and then securely store them on your computer so that you can access them throughout the module. I recommend storing them in either a password keeper or a document that you can secure—perhaps the same document where you stored the Quandl API key.
+
+The following image shows a suggestion for the format:
+
+![Save Apaca Keys](alpaca_key_saved.png)
+
+**Display Your Hidden Files**
+You’ll use environment (.env) files to protect your Quandl and Alpaca API keys. When you create an environment file, the system hides it in the folder structure of the project. Thus, if you navigate the folder structure of your computer via Finder (macOS) or File Explorer (Windows), you won’t find an environment file in the project folder.
+
+To work with environment files, you need your folder structure to display them for you. To display the hidden files on your computer, complete the steps in the following subsections.
+
+**Windows Users: Display Your Hidden Files in File Explorer**
+To display the hidden files on a Windows computer, complete the following steps:
+
+In the search bar, type “folder”.
+
+Click “File Explorer Options”.
+
+In the “File Explorer Options” dialog box that displays, click the View tab. Select “Show hidden files, folders, and drives,” and then click OK, as the following image shows:
+
+![Display Hidden Files](display_hidden_files.png)
+
+**macOS Users: Display Your Hidden Files in Finder**
+To display the hidden files on a macOS computer, complete the following steps:
+
+Open Finder.
+
+Press the Command+Shift+Dot (.) key combination.
+
+**Display Your Hidden Files in JupyterLab**
+You can also observe your hidden files directly in JupyterLab. To do this, run the following command in the terminal when JupyterLab launches:
+
+![Display Hidden Files in Jupyter](hidden_files_jupyter.png)
+
+This command doesn’t permanently change the ability to observe hidden files in JupyterLab. You need to launch JupyterLab with this extended command every time you want to work with hidden files.
+
+**Installation should now be complete**
+
+
+
