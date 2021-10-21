@@ -213,3 +213,12 @@ From the summary statistics and the histogram, we can tell that the average retu
 
 Given only this information, we can determine that the portfolio value in 10 years will **not** be sufficient for early retirement. 
 
+---
+
+## Contributors
+
+**Created by:** Tony Landero<br>
+**Email Adress:** mr.landero@gmail.com
+
+---
+
