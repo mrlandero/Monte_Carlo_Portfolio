@@ -222,3 +222,6 @@ Given only this information, we can determine that the portfolio value in 10 yea
 
 ---
 
+## License
+
+MIT
