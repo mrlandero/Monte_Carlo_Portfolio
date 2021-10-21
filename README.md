@@ -178,5 +178,38 @@ This command doesn’t permanently change the ability to observe hidden files in
 
 **Installation should now be complete**
 
+## Usage
 
+In order to use this program, in your terminal, make sure you are in your conda dev environment
+and then from the directory you're working in launch jupyter lab. The following image shows this step:
+
+![Launching Jupyter](jupyter_launch.png)
+
+Thes result of the program should be to determine whether a person will be able to retire after only ten years. 
+
+First, we need to calculate their current retirement plan, which is set for 30 years. However, we want to determine if rebalancing their portfolio to include heavier stock weight, will allow the client to retire after only 10 years, instead of 30 years.
+
+The application produces two histograms and summary statistics that we can use to make our detemination on this client's retirement.
+
+Following, are the results of the 30-year retirement calculation for the client:
+
+![30-year Summary Statistics](thirty_year_summary.png)
+
+Next, the histogram showing the range that we have a 95% certainty of happening:
+
+![30-year Histogram](thirty_year_hist.png)
+
+From the summary statistics and the histogram, we can tell that the average return this client will get in 30 years is right at 20 times the initial investment (current portfolio value).
+
+Now the calculations for the 10-year retirement plan, starting with the summary statistics:
+
+![10-year Summary Statistics](ten_year_summary.png)
+
+We will now plot the data in a histogram:
+
+![10-year Histogram](ten_year_hist.png)
+
+From the summary statistics and the histogram, we can tell that the average return this client will get in 30 years is right at 3.7 times the initial investment (current portfolio value).
+
+Given only this information, we can determine that the portfolio value in 10 years will **not** be sufficient for early retirement. 
 
