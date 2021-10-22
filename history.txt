@@ -1,0 +1,28 @@
+    1  conda activate dev
+    2  cd Desktop/
+    3  cd FinTech-Workspace/
+    4  ls
+    5  cd Monte_Carlo_Portfolio/
+    6  git status
+    7  git add -A
+    8  git commit -m "Determined whether the client can possible retire after only 10 years"
+    9  git push origin main
+   10  git status
+   11  git add -A
+   12  git commit -m "Finalized the Installation Guide"
+   13  git push origin main
+   14  git status
+   15  git add -A
+   16  git status
+   17  git commit -m "Added Usage Section to README.md file"
+   18  git push origin main
+   19  git status
+   20  git add -A
+   21  git commit -m "Added Contributors Section to README.md file"
+   22  git push origin main
+   23  git status
+   24  git add -A
+   25  git commit -m "Added License Section to README.md file"
+   26  git push origin main
+   27  history.txt < 55
+   28  history 50 > history.txt
